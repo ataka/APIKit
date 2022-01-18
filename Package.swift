@@ -13,8 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "APIKit", 
-            dependencies: [],
-            exclude: ["BodyParameters/AbstractInputStream.m"]
+            dependencies: []
         ),
          .testTarget(
             name: "APIKitTests",
